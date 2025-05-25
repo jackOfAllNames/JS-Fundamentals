@@ -22,7 +22,10 @@ node 0-javascript_is_amazing.js
 
 Prints:
 
-`JavaScript is amazing`
+```shell
+$ node 0-javascript_is_amazing.js
+JavaScript is amazing
+```
 
 - Uses a constant variable `myVar`
 - No use of `var`
@@ -33,10 +36,12 @@ Prints:
 
 Prints three lines:
 
-```javascript
+```shell
+alvicci@ubuntu:~/0x12$ node 1-multi_languages.js
 C is fun
 Python is cool
 JavaScript is amazing
+alvicci@ubuntu:~/0x12$
 ```
 
 📄 `1-multi_languages.js`
@@ -45,9 +50,15 @@ JavaScript is amazing
 
 Prints different messages based on the number of arguments:
 
-- No argument - `No argument`
-- One argument - `Argument found`
-- More than one - `Arguments found`
+```shell
+alvicci@ubuntu:~/0x12$ node 2-arguments.js
+No argument
+alvicci@ubuntu:~/0x12$ node 2-arguments.js Best
+Argument found
+alvicci@ubuntu:~/0x12$ node 2-arguments.js Best School
+Arguments found
+alvicci@ubuntu:~/0x12$
+```
 
 📄 `2-arguments.js`
 
