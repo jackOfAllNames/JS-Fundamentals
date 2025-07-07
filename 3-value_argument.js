@@ -2,10 +2,9 @@
 
 const processArguments = process.argv;
 const firstArgument = processArguments[2];
-const sizeOfArguments = processArguments.length;
 
-if (sizeOfArguments <= 2) {
-  console.log("No argument");
-} else {
+if (firstArgument) {
   console.log(firstArgument);
+} else {
+  console.log("No argument");
 }
